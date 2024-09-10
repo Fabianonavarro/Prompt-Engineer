@@ -1,4 +1,5 @@
 🏋️‍♂️ Assistente de Personal Trainer - Gerador de Treino Ideal
+
 Este projeto é um desafio de Prompt Engineer, com o objetivo de criar um prompt que ajude a montar o treino ideal com base em variáveis como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por este prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário, seguindo boas práticas de engenharia de prompt.
 
 📋 Índice
