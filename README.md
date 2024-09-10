@@ -3,20 +3,33 @@
 Este projeto é um desafio de Prompt Engineer, com o objetivo de criar um prompt que ajude a montar o treino ideal com base em variáveis como biotipo corporal, disponibilidade de tempo e tipo de exercícios preferidos. O assistente de personal trainer gerado por este prompt será capaz de personalizar os treinos de acordo com as características e necessidades do usuário, seguindo boas práticas de engenharia de prompt.
 
 📋 Índice
+
 📝 Introdução
+
 💪 Biotipos Corporais
+
 📅 Dias Disponíveis para Treino
+
 🏋️ Tipos de Exercícios
+
 🛠️ Regras de Negócio
+
 📖 Material de Apoio
+
 🎯 Prompt de Resposta Proposto
+
 🖥️ Script Python Adicional
+
 📜 Licença
+
 ℹ️ Maiores Informações
+
 📝 Introdução
+
 Este projeto visa criar um assistente de personal trainer automatizado que ajuda a gerar treinos personalizados. O usuário fornecerá informações sobre seu biotipo corporal, a quantidade de dias disponíveis para treinar na semana e o tipo de exercício preferido. Com base nessas informações, o assistente gerará um plano de treino ideal. O objetivo é tornar a criação de um plano de treino mais acessível e eficaz, utilizando técnicas avançadas de engenharia de prompt.
 
 💪 Biotipos Corporais
+
 A primeira etapa para personalizar o treino é determinar o biotipo corporal do usuário. Os três biotipos principais são:
 
 Biotipo	Descrição
@@ -26,6 +39,7 @@ Endomorfo	Corpo com tendência a acumular gordura, dificuldade em perder peso.
 Nota: Escolha o biotipo que mais se aproxima do seu corpo atual para que o treino seja mais eficiente.
 
 📅 Dias Disponíveis para Treino
+
 A segunda etapa é determinar quantos dias por semana o usuário pode treinar. Dependendo do número de dias, o treino sugerido pode variar:
 
 Dias por Semana	Tipo de Treino Sugerido
@@ -53,7 +67,9 @@ Identifique seu biotipo corporal consultando a seção de biotipos.
 Determine quantos dias por semana você pode treinar e escolha o tipo de treino mais adequado.
 Selecione o tipo de exercício que prefere realizar e que se encaixa melhor nos seus objetivos.
 Use o prompt do assistente para gerar um plano de treino personalizado.
+
 📖 Material de Apoio
+
 Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor o projeto e as práticas de engenharia de prompt:
 
 Fundamentos de Engenharia de Prompt
@@ -150,6 +166,7 @@ Mantenha a Motivação: Encontre um parceiro de treino, varie os exercícios par
 Utilize este prompt para gerar planos de treino que atendam às necessidades específicas dos usuários e proporcionem um caminho claro e eficaz para alcançar seus objetivos de fitness.
 
 🖥️ Script Python Adicional
+
 Além do prompt de resposta, um script Python foi desenvolvido para automatizar o processo de criação de treinos. Este script solicita informações do usuário e gera um plano de treino com base nas respostas fornecidas.
 
 Funcionalidades do Script personal_treiner.py
