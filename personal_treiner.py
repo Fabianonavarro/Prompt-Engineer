@@ -125,13 +125,14 @@ def gerar_recomendacoes(biotipo, periodizacao, tipo, objetivo):
             f"Periodização: {periodizacao} dias\n"
             f"Tipo de Treino: {', '.join(tipo).capitalize()}\n"
             f"Objetivo: {objetivo.capitalize()}\n\n"
-            f"Com base nos valores informados na área de variáveis e com as guidelines, crie um treino ideal\n"
-            f"para a pessoa que corresponde à combinação desses 3 valores e informações regra 4 e regra 5\n"
-            f"adequada à regra 1.\n\n"
             f"Plano de Treino:\n{treino}\n\n"
+            "\n"    
             f"{alimentacao}\n\n"
+             "\n"  
             f"{horario}\n\n"
+             "\n"  
             f"{avaliacao_ajustes}\n\n"
+             "\n"  
             f"{motivacao}")
 
 # Gerar e imprimir o plano de treino
