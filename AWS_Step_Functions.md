@@ -56,7 +56,6 @@ Nesta demonstração, você aprenderá a usar as integrações de serviços do A
 
 - [Postagem do blog: Agora — AWS Step Functions oferece suporte a 200 serviços da AWS para permitir automação de fluxo de trabalho mais fácil](Link do blog aqui)
 
-## 🌟 Introdução
 
 Nos tempos atuais, onde a velocidade e eficiência são essenciais para o sucesso empresarial, a incorporação de um atendente virtual usando Inteligência Artificial (IA) Generativa tornou-se um elemento crucial para escalar negócios. GenAI oferece uma oportunidade única para empresas de todos os tamanhos automatizarem o atendimento ao cliente, proporcionando respostas rápidas e precisas 24 horas por dia. Isso não só melhora a experiência do cliente, mas também libera recursos humanos para se concentrarem em tarefas mais complexas e estratégicas, potencializando o crescimento sustentável e a capacidade de resposta do negócio no competitivo mercado atual.
 
