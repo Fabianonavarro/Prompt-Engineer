@@ -175,7 +175,9 @@ Funcionalidades do Script personal_treiner.py
 Obtenção de Entradas: Solicita e valida o biotipo, objetivo, tipo de treino e periodização.
 Geração de Recomendações: Baseado nas entradas, gera um plano de treino, dicas de alimentação e horários recomendados.
 Recomendações Personalizadas: Oferece sugestões para avaliação de progresso e ajustes no plano.
+
 ###################
+
 def obter_entrada(mensagem, opcoes):
     """Função para obter entrada do usuário com validação."""
     while True:
