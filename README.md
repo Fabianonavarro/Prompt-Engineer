@@ -175,9 +175,7 @@ Funcionalidades do Script personal_treiner.py
 Obtenção de Entradas: Solicita e valida o biotipo, objetivo, tipo de treino e periodização.
 Geração de Recomendações: Baseado nas entradas, gera um plano de treino, dicas de alimentação e horários recomendados.
 Recomendações Personalizadas: Oferece sugestões para avaliação de progresso e ajustes no plano.
-
-
-
+###################
 def obter_entrada(mensagem, opcoes):
     """Função para obter entrada do usuário com validação."""
     while True:
@@ -305,20 +303,22 @@ def gerar_recomendacoes(biotipo, periodizacao, tipo, objetivo):
             f"Periodização: {periodizacao} dias\n"
             f"Tipo de Treino: {', '.join(tipo).capitalize()}\n"
             f"Objetivo: {objetivo.capitalize()}\n\n"
-            f"Com base nos valores informados na área de variáveis e com as guidelines, crie um treino ideal\n"
-            f"para a pessoa que corresponde à combinação desses 3 valores e informações regra 4 e regra 5\n"
-            f"adequada à regra 1.\n\n"
             f"Plano de Treino:\n{treino}\n\n"
+            "\n"    
             f"{alimentacao}\n\n"
+             "\n"  
             f"{horario}\n\n"
+             "\n"  
             f"{avaliacao_ajustes}\n\n"
+             "\n"  
             f"{motivacao}")
 
 # Gerar e imprimir o plano de treino
-
 print(gerar_recomendacoes(biotipo, periodizacao, tipos_selecionados, objetivo))
 
-Como Executar o Script
+#################
+
+@Como Executar o Script
 
 Instalação: Certifique-se de ter o Python instalado. Não são necessárias bibliotecas adicionais para este script.
 
@@ -330,9 +330,11 @@ Interação: Siga as instruções fornecidas pelo script para inserir suas prefe
 
 Este script pode ser adaptado e expandido conforme necessário para atender a requisitos adicionais.
 
+
 📜 Licença
 
 Este projeto é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
 
 ℹ️ Maiores Informações
 
